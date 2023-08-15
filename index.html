@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link href="https://db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF+Pro+Text+Regular" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <nav>
+   <div class="conatiner">
+     <img class="logo-img" src="img/Logo (1).png" alt="">
+    <ul class="menu">
+      <li class="menu__item1"><a href="./index.html">Главная</a></li>
+      <li class="menu__item" id="sign-up-link"><a href="./pages/category.html">Каталог <i class="fa-solid fa-chevron-down"></i></a></li>
+      <li class="menu__item" id="sign-in-link"><a href="#">Оптовая продажа</a></li>
+      <li class="menu__item" id="account-link"><a href="#">О нас</a></li>
+      <li class="menu__item2"><i class="fa-solid fa-phone"></i>+7 (966) 55 88 499</li>
+      <i class="fa-regular fa-heart"></i>
+      <a href="./pages/korzinka.html"><i class="fa-solid fa-cart-shopping"></i></a>
+     </ul>
+  </div>
+  </nav>
+  <section>
+    <div class="container">
+        <div class="textSecta">
+          <h4>Главная /<span class="h4-span"> Каталог</span></h4>
+        </div>
+        <div class="bigText">
+           <h2>Накладные электронные замки<span class="h2-span">(859)</span></h2>
+        </div>
+        <div class="containt">
+           <div class="text">
+               <p class="Filter-div">Сбросить фильтры</p>
+           </div>
+           <div class="text2">
+              <p class="Pp-filter"> Популярности  <i class="fa-solid fa-chevron-down"></i> </p>
+           </div>
+        </div>
+        <div id="fetchProduct">
+        </div>
+        </div>
+  </section>
+  <div class="filetr">
+    <div class="container">
+      <div class="filter_main">
+        <div class="text_filter">
+          <h3>Фильтр</h3>
+          <div class="text_box-pirce">
+               <p>Цена <i class="fa-solid fa-chevron-down"></i></p>
+               <input type="number" placeholder="mine" class="input_min_pirce" value="2500$">
+               <input type="number" placeholder="max" class="input_max_pirce" value="7500$">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="service">
+    <div class="container">
+      <div class="service-text">
+        <h1>Вы недавно просмотрели</h1>
+       <div class="chevron-left-rigth"> <i class="fa-solid fa-chevron-left"></i> <i class="fa-solid fa-chevron-right"></i></div>
+      </div>
+      <div class="service"></div>
+    </div>
+  </div>
+  <div class="banner">
+     <div class="container">
+      <div class="banner-dislplay">
+        <div class="banner-text">
+          <h2 class="banner_h2">Eget quis quam metus, scelerisque.</h2>
+          <p class="banner_p">Odio felis sit leo, massa, mauris, at pulvinar ultrices. Eu porttitor molestie massa porttitor. Quisque at turpis ut proin eu et magna etiam rhoncus.</p>          
+          <div class="banner_input">
+            <input type="checkbox">
+            <p class="banner-p">Деревянную дверь</p>
+            <input type="checkbox"> 
+             <p class="banner-p">Деревянную дверь</p>
+             <input type="checkbox"> 
+             <p class="banner-p">Межкомнатую дверь</p>
+             <input type="checkbox">
+             <p class="banner-p">Межкомнатую дверь</p>
+          </div>
+          <div class="banner-text">
+            <p class="banner_p">Ac risus neque pulvinar tincidunt est. Tristique imperdiet viverra interdum in leo. Nullam ullamcorper id enim fermentum integer praesent bibendum. In ullamcorper purus scelerisque malesuada et egestas. Ac dictumst mauris sed facilisis.</p>
+          </div>
+        </div>
+        <div class="banner-img">
+          <img src="./img/white-2-storey-house-near-trees-1115804.png" alt="">
+        </div>
+      </div>
+      <div class="banner-display">
+         <div class="banner-imge">
+          <img src="./img/white-2-storey-house-near-trees-1115804 (3).png" alt="">
+         </div>
+         <div class="bannere-text">
+              <h2 class="banner_h2e">Eget quis quam metus, scelerisque.</h2>
+              <p class="banner_pe">Odio felis sit leo, massa, mauris, at pulvinar ultrices. Eu porttitor molestie massa porttitor. Quisque at turpis ut proin eu et magna etiam rhoncus.</p>
+              <p class="banner_pe">Ac risus neque pulvinar tincidunt est. Tristique imperdiet viverra interdum in leo. Nullam ullamcorper id enim fermentum integer praesent bibendum. In ullamcorper purus scelerisque malesuada et egestas. Ac dictumst mauris sed facilisis.</p>
+         </div>
+      </div>
+     </div>
+  </div>
+  <div class="input-form-serverci">
+     <div class="container">
+        <div class="form-text">
+          <h2 class="input_h2">Мы Вам перезвоним</h2>
+          <p class="input_p">Если у вас возникли какие-то вопросы или проблемы, заполните форму и мы Вам перезвоним.</p>
+        </div>
+        <form action="https://echo.htmlacademy.ru/">
+           <input required type="text" placeholder="Ваше имя" class="form_input">
+           <input required type="text" placeholder="Ваш Email" class="form_input">
+           <button type="submit">Отправить</button>
+        </form>
+     </div>
+  </div>
+  <div class="end">
+    <div class="container">
+      <div class="end_main">
+          <div class="img_end">
+            <img src="./img/Logo (2).png" alt="">
+            <div class="logoIcon_end">
+            <img src="./img/Frame 4075216.png" alt="">
+            </div>
+          </div>
+          <div class="main-text">
+            <div class="text_img">
+              <h5 class="text_h5">Навигация</h5>
+              <p class="text_p">Главная</p>
+              <p class="text_p">Каталог</p>
+              <p class="text_p">Оптовая продажа</p>
+              <p class="text_p">О нас</p>
+           </div>
+           <div clas class="text_h5"="text_img">
+              <h5 class="text_h5">Наши контакты </h5>
+              <p class="text_p">Телефоны</p>
+              <p class="text_p">+7 (988) 565 00 38</p>
+              <p class="text_p">+375 33 662 82 56</p>
+              <p class="text_p">Email</p>
+              <p class="text_p">vladpertcev@mail.ru</p>
+              <p class="text_p">korobko416@gmail.com</p>
+           </div>
+           <div class="text_img">
+               <h5 class="text_h5">Наш адрес</h5>
+               <p class="text_p">Россия л. </p>
+               <p class="text_p">Ростов-на-Дону у</p>
+               <p class="text_p">Богачева, 16</p>
+           </div>
+           <div class="text_img">
+               <h5 class="text_h5">информация</h5>
+               <p class="text_p">Доставка и оплата</p>
+               <p class="text_p">Гарантии</p>
+               <p class="text_p">Возврат товара</p>
+           </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script src="./script/main.js"></script>
+</body>
+</html>

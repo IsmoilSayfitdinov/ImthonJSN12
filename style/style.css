@@ -1,0 +1,634 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+
+
+  nav{
+    margin: auto;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    border: 1px solid #C4CDD5;
+  }
+
+  .container{
+    margin:auto;
+    width: 1440px;
+  }
+
+  img{
+    position: absolute;
+  }
+
+  .menu{
+    display: flex;
+    list-style-type: none;
+  }
+
+  .menu a{
+    
+    font-family: "SF Pro Text Regular";
+    margin-left: 32px;
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .menu__item1{
+    margin-left: 200px;
+  }
+
+
+  .menu__item2{
+    
+    font-family: "SF Pro Text Regular";
+    margin-left: 289px;
+  }
+
+
+  .fa-regular , .fa-cart-shopping{
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 25px;
+  }
+
+
+
+  section{
+    margin: 20px;
+  }
+
+
+  .h4-span{
+    
+    font-family: "SF Pro Text Regular";
+    color: #9D9D9D;
+  }
+
+
+  .h2-span{
+    
+    font-family: "SF Pro Text Regular";
+    color: #000000;
+    font-size: 18px;
+    margin-left: 12px;
+  }
+
+  .bigText,.textSecta{
+    margin-top: 40px;
+    margin-left: 100px;
+  }
+
+
+
+  .bigText{
+    
+    font-family: "SF Pro Text Regular";
+    font-size: 28px;
+  }
+
+  .containt{
+    
+    font-family: "SF Pro Text Regular";
+    display: flex;
+    margin-top: 32px;
+    justify-content: space-between;
+  }
+
+  .text{
+    
+    font-family: "SF Pro Text Regular";
+    border: 1px solid var(--light-blue, #ADD7FF);
+    background: #FFF;
+    margin-left: 100px;
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+
+  .text2{
+    
+    font-family: "SF Pro Text Regular";
+    border: 1px solid var(--light-grey, #C4CDD5);
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 95px;
+  }
+
+  .Filter-div{
+    
+    font-family: "SF Pro Text Regular";
+    padding: 7px 16px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px
+  
+  }
+
+
+  .Pp-filterz{
+    
+    font-family: "SF Pro Text Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+  }
+
+
+  #fetchProduct{
+    gap: 80px;
+    margin-top: 104px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+
+  }
+
+
+  .DivFetch{
+    position: relative;
+    padding: 20px;
+    padding-top: 400px;
+    height: 600px;
+    background-color: #fefefe;
+    width: 335px;
+    margin-bottom: -100px;
+    margin-left: 380px;
+    
+  }
+
+  .Img-style{
+    left: 15px;
+    bottom: 220px;
+    height: 370px;
+    position: absolute;
+    width: 320px;
+  }
+
+  .ShopTitle{
+    
+    font-family: "SF Pro Text Regular";
+    color: #9D9D9D;
+    padding-bottom: 20px;
+  }
+
+  .ShopPrice{
+    font-family: "SF Pro Text Regular";
+    padding-top: 30px;
+  }
+
+  .ShopDesc{
+    font-family: "SF Pro Text Regular";
+  }
+
+
+  .service-text{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 99px;
+    font-family: "SF Pro Text Regular";
+  }
+
+  .chevron-left-rigth{
+    font-size: 28px;
+    margin-right: 54px;
+    
+  }
+
+  .fa-chevron-left{
+    color: #9D9D9D;
+    margin-right: 53px;
+  }
+
+
+  .service{
+    height: 700px;
+    position: relative;
+    margin-left: 99px;
+    display: grid;
+    grid-template-columns: 350px 350px 400px 350px;
+    
+  }
+
+
+  .SliceDiv{  
+    margin-top: 164px;
+    
+  }
+
+
+  .SliceDiv:last-child{
+    margin-top: -570px;
+  }
+
+  .service_p{
+    font-family: "SF Pro Text Regular";
+   position: absolute;
+   top: 490px;
+  }
+
+  .service_pa{
+    font-family: "SF Pro Text Regular";
+    position: absolute;
+    top: 490px;
+    margin-left: 200px
+  }
+
+
+ .banner_h2{
+    margin-left: 100px;
+    font-family: "SF Pro Text Regular";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px; 
+  }
+
+  .banner_p{
+    margin-left: 100px;
+    font-family: "SF Pro Text Regular";
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 32px; 
+   width: 605px;
+   margin-top: 24px;
+  }
+
+
+  .banner_input{
+    display: grid;
+    margin-top: 24px;
+    grid-template-rows: 20px 20px 20px 20px;
+    gap: 30px;
+    grid-template-columns: 170px 170px 170px 170px;
+  }
+
+
+ 
+
+
+
+.banner-dislplay{
+  display: flex;
+}
+
+.banner-img{
+  margin-top: -55px;
+  margin-left: 30px;
+
+}
+
+.banner-imge{
+  margin-left: 100px;
+  margin-top: -82px;
+}
+
+
+
+.banner_h2e{
+  margin-top: 400px;
+    margin-left: 750px;
+    font-family: "SF Pro Text Regular";
+    font-size: 32px;
+    justify-content: end;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px; 
+}
+
+
+.banner_pe{
+  margin-left: 750px;
+  font-family: "SF Pro Text Regular";
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 32px; 
+ width: 605px;
+ margin-top: 24px;
+}
+
+
+.form-text{
+  text-align: center;
+  margin-top: 400px;
+  background: var(--bg-light, #F2F8FF);
+  width: 1440px;
+  height: 332px;
+  padding-top: 64px;
+}
+
+.input_h2{
+  font-family: "SF Pro Text Regular";
+  font-size: 44px;
+  padding-bottom: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px;
+}
+
+.input_p{
+     width: 518px;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 26px;
+     color: var(--grey, #454F5B);
+     margin-left: 461px;
+}
+
+form{
+  margin-left: 346px;
+  margin-top: -100px;
+}
+
+.form_input{
+  padding: 15px;
+  width: 240px;
+  border: none;
+  background: rgba(22, 28, 36, 0.04);
+
+}
+
+button{
+  padding: 10px;
+  width: 220px;
+  background: var(--main, #4295E4);
+  font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+color: var(--white, #FFF);
+border: none;
+cursor: pointer;
+margin-left: 24px;
+}
+
+.data{
+  display: grid;
+  grid-template-rows: 200px 200px;
+}
+
+.data_text{
+   margin-left: 700px;
+}
+ 
+#ProductTitle{
+  font-family: "SF Pro Text Regular";
+  font-size: 44px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 62px;
+   width: 604px;
+  color: var(--black, #161C24); 
+}
+
+#ProductDesc{
+  margin-top: 20px;
+   color: var(--grey, #454F5B);
+   font-family: SF Pro Text;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px; 
+   width: 287px;
+}
+
+
+#ProductPrice{
+   color: var(--black, #161C24);
+   font-family: SF Pro Text;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   margin-top: 58px;
+   margin-bottom: 16px;
+}
+
+
+.img_product{
+  margin-top: 90px;
+}
+
+
+.buttonProductToKorzink{
+  width: 220px;
+  background: var(--main, #4295E4);
+  font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+color: var(--white, #FFF);
+border: none;
+text-decoration: none;
+cursor: pointer;
+margin-left: 14px;
+}
+
+.img_style{
+  margin-top: 40px;
+  margin-left: 40px;
+
+}
+
+.shopDiv{
+  width: 836px;
+  margin-top: 100px;
+  margin-left: 280px;
+  height: 394px;
+  border: 1px solid;
+}
+
+.textb{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #9D9D9D;
+  margin-left: 40px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.Span_Shop{
+  color: red;
+  width: 20px;
+height: 20px;
+font-size: 28px;
+margin-top: 10px;
+margin-right: 50px;
+}
+
+.ShopText{
+  color: var(--black, #161C24);
+font-family: SF Pro Display;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 34px;
+}
+
+.texta{
+  margin-top: 40px;
+  margin-left: 200px;
+  position: relative;
+  
+}
+
+#Title{
+  font-family: "SF Pro Text Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+  padding-bottom: 15px;
+}
+
+#Desc{
+  font-family: "SF Pro Text Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+}
+
+#Price{
+  position: absolute;
+  top: 160px;
+  left: -180px;
+  font-family: "SF Pro Text Regular";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; 
+}
+
+.ButtonBuyShop{
+  position: absolute;
+  top: 210px;
+  left: -210px;
+}
+
+.end_main{
+  margin-top: 50px;
+  width: 1444px;
+  height: 362px;
+  display: flex;
+ background-color: #0D2436;
+box-shadow: 0px 1px 0px 0px #C4CDD5 inset;
+}
+
+
+.img_end{
+  margin-left: 100px;
+  margin-top: 64px;
+}
+
+.logoIcon_end{
+  margin-left: 5px;
+  margin-top: 196px;
+}
+
+
+.main-text{
+  gap: 0 97px;
+  margin-top: 55px;
+  display: flex;
+  margin-left: 290px;
+}
+
+.text_h5{
+  padding-bottom: 16px;
+  color: var(--white, #FFF);
+  font-family: SF Pro Text;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; 
+text-transform: capitalize;
+}
+
+.text_p{
+  padding-bottom: 16px;
+  opacity: 0.5;
+  color: var(--white, #FFF);
+font-family: SF Pro Text;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 26px; 
+}
+
+
+.filter_main{
+  position: absolute;
+  top: 400px;
+  display: inline-flex;
+  padding: 24px;
+  align-items: flex-start;
+  gap: 10px;
+  left: 20px;
+  border-radius: 2px;
+  border: 1px solid var(--light-grey, #C4CDD5);
+  background: #FFF;
+}
+
+.text_filter{
+  color: var(--black, #161C24);
+font-family: SF Pro Text;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+}
+
+.text_box-pirce{
+  margin-top: 20px;
+  color: var(--black, #161C24);
+font-family: SF Pro Text;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; 
+}
+
+
+.input_min_pirce{
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.input_max_pirce{
+  padding: 5px;
+  margin-left: 7px;
+}
+
+.containere{
+  margin-top: 40px;
+  margin-left: 250px;
+  display: grid;
+  gap:150px 30px;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 300px 300px 300px;
+}
+
+.name_categorie{
+  font-family: "SF Pro Text Regular";
+  margin-top: 320px;
+  padding-bottom: 20px;
+}
+
+.creationAt_categorie{
+  font-family: "SF Pro Text Regular";
+  padding-bottom: 15px;
+  font-size: 15px;
+}
